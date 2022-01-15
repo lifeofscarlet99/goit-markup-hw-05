@@ -60,9 +60,6 @@ img {
 .header-link.current {
   color: #2196f3;
 }
-.btn-item.current {
-  color: var(--accent-color);
-}
 
 .header {
   background: var(--header-color);
@@ -151,8 +148,7 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   max-width: 1600px;
-  justify-content: center;
-  display: flex;
+  margin: 0 auto;
 }
 
 .pre-title-button {
@@ -385,7 +381,7 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link:hover,
@@ -596,7 +592,7 @@ img {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-social-link:hover,
@@ -685,7 +681,7 @@ img {
 .footer .link,
 .footer .tel {
   color: rgba(255, 255, 255, 0.6);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 #logo-white {
   color: #ffffff;
@@ -731,7 +727,7 @@ img {
 }
 .footer-social-icon {
   fill: #ffffff;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link {
   width: 44px;
@@ -741,7 +737,7 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-list {
